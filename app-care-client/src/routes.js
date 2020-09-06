@@ -5,10 +5,11 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import Login from './pages/Newlogin/index';
 import Dashboard from './pages/Dashboard';
 import AppMenu from './pages/AppMenu';
-import Avaliacao from './pages/Avaliacao';
+import Avaliacao from './pages/Avaliacao/index';
 import Cuidadores from './pages/Cuidadores';
 import SignUp from './pages/SignUp';
 import Metas from './pages/Metas';
+import Educacao from './pages/Educação';
 
 export default function Routes() {
   return (
@@ -20,6 +21,7 @@ export default function Routes() {
         <Route path="/Cuidadores" component={Cuidadores} />
         <Route path="/Cadastro" component = {SignUp} />
         <Route path="/metas" component = {Metas}/>
+        <Route path="/educacao" component = {Educacao}/>
     </BrowserRouter>
   );
 }

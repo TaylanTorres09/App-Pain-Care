@@ -18,7 +18,7 @@ function AppMenu() {
                         </Link>
                         </div>
                         <div className="buttons-container">
-                        <Link to="/dashboard" className="study">
+                        <Link to="/Avaliacao" className="study">
                             Avaliação Diária
                         </Link>
                         </div>
@@ -28,7 +28,7 @@ function AppMenu() {
                         </Link>
                         </div>
                         <div className="buttons-container">
-                        <Link to="/dashboard" className="study">
+                        <Link to="/educacao" className="study">
                             Educação em dor
                         </Link>
                         </div>

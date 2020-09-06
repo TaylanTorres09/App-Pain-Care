@@ -4,6 +4,8 @@ import {Link} from 'react-router-dom';
 import logoImg from '../../assets/images/logoAppWhite.svg';
 import backIcon from '../../assets/images/icons/back.svg';
 
+//import api from '../../services/api';
+
 
 function PageHeader () {
     return(
